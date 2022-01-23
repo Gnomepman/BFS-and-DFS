@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-    w.setWindowTitle("Лабораторна робота №5, Деркач Д.А. ПІ-201");
+    w.setWindowTitle("BFS and DFS");
     w.show();
     return a.exec();
 }

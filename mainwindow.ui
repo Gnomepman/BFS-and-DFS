@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>380</width>
-    <height>797</height>
+    <height>766</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,14 +30,14 @@
      </font>
     </property>
     <property name="text">
-     <string>В глибину</string>
+     <string>DFS</string>
     </property>
    </widget>
    <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>410</y>
+      <y>420</y>
       <width>321</width>
       <height>301</height>
      </rect>
@@ -59,7 +59,7 @@
      </font>
     </property>
     <property name="text">
-     <string>В ширину</string>
+     <string>BFS</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -90,7 +90,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Почати з вершини</string>
+        <string>Start from vertex</string>
        </property>
       </widget>
      </item>
@@ -115,7 +115,7 @@
     <property name="geometry">
      <rect>
       <x>21</x>
-      <y>1</y>
+      <y>10</y>
       <width>321</width>
       <height>36</height>
      </rect>
@@ -130,7 +130,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Кількість вершин</string>
+        <string>Number of vertices</string>
        </property>
       </widget>
      </item>
@@ -193,7 +193,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Граф</string>
+     <string>Build</string>
     </property>
    </widget>
   </widget>
